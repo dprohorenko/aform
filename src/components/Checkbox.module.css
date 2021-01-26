@@ -1,0 +1,47 @@
+.label {
+  position: relative;
+  display: inline-block;
+  margin-top: 36px;
+  margin-bottom: 39px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #756f86;
+}
+
+.input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.input + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.input + label::before {
+  content: '';
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: #ffffff no-repeat center center;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(44, 39, 56, 0.04);
+  border-radius: 4px;
+  border: 1px solid #dbe2ea;
+  margin-right: 10px;
+}
+
+.input:checked + label::before {
+  background-image: url('../static/checked.svg');
+  border: 2px solid #0880ae;
+}
+
+.labelText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}

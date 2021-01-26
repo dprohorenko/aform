@@ -1,0 +1,40 @@
+.label {
+  position: relative;
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 18px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #756f86;
+}
+
+.label input {
+  position: relative;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #dbe2ea;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(44, 39, 56, 0.04);
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #2C2738;
+  padding: 16px 57px 16px 15px;
+  margin-top: 7px;
+  margin-bottom: 8px;
+}
+
+.label input:focus,
+.label input:active {
+  border: 2px solid #0880ae;
+  padding: 15px 56px 15px 14px;
+}
+
+.error {
+  position: absolute;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ff7171;
+}

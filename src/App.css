@@ -1,0 +1,20 @@
+body {
+  background: #e5e5e5;
+  font-family: IBM Plex Sans, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button, input {
+  outline: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#app {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
